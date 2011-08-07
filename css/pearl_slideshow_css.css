@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+#pearl_slideshow
+{
+	
+	overflow:hidden;
+	text-align:center;
+}
+#btnstyle
+{
+	width:410px;
+	text-align:center;
+	margin-top:5px;
+}
+#pearl_slideshow span
+{
+	display:block;
+	line-height:50px;
+	text-align:center;
+	
+}
+#pearl_slideshow div.prev
+{
+	z-index:1;
+}
+#pearl_slideshow div.pearl_active
+{
+	z-index:2;
+}
+.btnclass
+{
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
