@@ -28,8 +28,8 @@ class pearl_slideshow_class
 {
 	function pearl_slideshow_css()
 	{
-		$myStyleUrl = WP_PLUGIN_URL . '/pearl_slideshow/css/pearl_slideshow_css.css';
-        $myStyleFile = WP_PLUGIN_DIR . '/pearl_slideshow/css/pearl_slideshow_css.css';
+		$myStyleUrl = WP_PLUGIN_URL . '/image-slideshow-pearlbells/css/pearl_slideshow_css.css';
+        $myStyleFile = WP_PLUGIN_DIR . '/image-slideshow-pearlbells/css/pearl_slideshow_css.css';
         if ( file_exists($myStyleFile) ) 
 		{
             wp_register_style('myStyleSheets', $myStyleUrl);
